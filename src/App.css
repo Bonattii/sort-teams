@@ -56,7 +56,7 @@ input:checked + label {
 
 .invited-container input {
   padding: 0.74rem;
-  width: calc(100% - 65px);
+  width: calc(100% - 80px);
   background-color: var(--primary-color);
   border: 1px solid var(--text-color);
   border-right: none;
