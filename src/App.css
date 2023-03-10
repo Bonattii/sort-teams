@@ -1,0 +1,141 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  margin-bottom: 2rem;
+}
+
+.names-container {
+  max-width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+}
+
+.checkbox-container {
+  margin-bottom: 1.4rem;
+}
+
+input[type='checkbox'] {
+  display: none;
+}
+
+.checkbox-label {
+  color: var(--primary-color);
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+  border: solid 1px var(--text-color);
+  background-color: var(--text-color);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+input:checked + label {
+  background-color: var(--primary-color);
+  border-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+.invited-container {
+  margin-bottom: 2rem;
+}
+
+.invited-container form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 0.3rem;
+  font-size: 1.2rem;
+}
+
+.invited-container input {
+  padding: 0.74rem;
+  width: calc(100% - 65px);
+  background-color: var(--primary-color);
+  border: 1px solid var(--text-color);
+  border-right: none;
+  color: var(--text-color);
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.invited-container input::placeholder {
+  color: var(--text-color);
+}
+
+.invited-container input:focus {
+  outline: none;
+  border-color: var(--secondary-color);
+}
+
+.add-guest {
+  padding: 0.74rem;
+  background-color: var(--primary-color);
+  border: 1px solid var(--text-color);
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.add-guest:hover {
+  border-color: var(--secondary-color);
+}
+
+.plus:first-child {
+  color: var(--text-color);
+}
+
+.plus:hover {
+  color: var(--secondary-color);
+}
+
+.form-submit {
+  margin-top: 2rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: solid 1px var(--text-color);
+  font-size: 1.2rem;
+  background-color: var(--primary-color);
+  color: white;
+  width: 60%;
+}
+
+.form-submit:hover {
+  border-color: var(--secondary-color);
+}
+
+.number-input {
+  width: 20px;
+  text-align: center;
+}
+
+.number-input:focus {
+  outline: none;
+}
+
+.number-input-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.teams-container {
+  display: flex;
+  gap: 50px;
+}
+
+.teams-container img {
+  width: 60px;
+}
+
+.joker-container {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.joker-container img {
+  width: 80px;
+}
