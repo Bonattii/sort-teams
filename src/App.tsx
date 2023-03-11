@@ -26,7 +26,8 @@ const fixPlayers = [
   'Neves',
   'Paulo',
   'Rodrigo',
-  'Lipe'
+  'Lipe',
+  'Dani'
 ];
 
 function App() {
